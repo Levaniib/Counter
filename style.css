@@ -1,0 +1,46 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(92, 48, 133);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.h1{
+    font-size: 60px;
+}
+
+.p1{
+    font-size: 80px;
+    margin-top: -10px;
+}
+
+.maindiv{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px   ;
+}
+
+.decrease{
+    height: 35px;
+    width: 120px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.reset{
+    height: 35px;
+    width: 120px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.increase{
+    height: 35px;
+    width: 120px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
